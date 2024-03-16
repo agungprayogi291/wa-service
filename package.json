@@ -2,7 +2,7 @@
   "name": "wa-service",
   "version": "1.0.0",
   "description": "notification whatsapp ",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/agungprayogi291/wa-service/issues"
   },
-  "homepage": "https://github.com/agungprayogi291/wa-service#readme"
+  "homepage": "https://github.com/agungprayogi291/wa-service#readme",
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0"
+  }
 }
